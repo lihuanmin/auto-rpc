@@ -1,0 +1,3 @@
+rpc:
+  serverSocket:
+    port: 8087

@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: GMT+8 #日期序列化走北京时间
+
+server:
+  port: 8086
+  servlet:
+    context-path: /consumer
+
+rpc:
+  socket:
+    ip: 127.0.0.1
+    port: 8087
